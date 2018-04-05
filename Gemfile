@@ -51,7 +51,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #for our local server:
 group :development do
-    
+    gem 'sqlite3'
 end
 
 #for Heroku:
